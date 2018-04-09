@@ -1,0 +1,43 @@
+main {
+  background-color: #0984e3;
+  border: black solid 5px;
+  border-radius: 40px;
+  display: inline-block;
+  font-family: "Cutive Mono", monospace;
+  height: auto;
+  max-width: auto;
+  min-height: 900px;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 48px;
+  padding-top: 130px;
+}
+
+main h2 {
+  font-size: 36px;
+  padding-top: 130px;
+}
+
+main h3 {
+  font-size: 24px;
+  padding-top: 130px;
+}
+
+main button {
+  background-color: grey;
+  border-radius: 40px;
+  font-family: "Cutive Mono", monospace;
+  font-size: 36px;
+  height: 120px;
+  list-style-type: none;
+  width: 300px;
+}
+
+main .tweet {
+  height: 120px;
+  width: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
