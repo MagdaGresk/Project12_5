@@ -1,39 +1,46 @@
 $fonts: 'Cutive Mono', monospace;
 $blue: #0984e3;
 
-main {
+body {
 	background-color: $blue;
-	border: black solid 5px;
-	border-radius: 40px;
-	display: inline-block;
 	font-family: $fonts;
-	height: auto;
-	max-width: auto;
-	min-height: 900px;
 	text-align: center;
 	h1 {
 		font-size: 48px;
-		padding-top: 130px;
+		height: 150px;
+		margin: 50px auto;
+		padding: 0 auto;
+	}
+	.box {
+		height: 400px;
 	}
 	h2 {
 		font-size: 36px;
-		padding-top: 130px;
 	}
 	h3 {
 		font-size: 24px;
-		padding-top: 130px;
 	}
-	button {
+	.trigger {
 		background-color: grey;
 		border-radius: 40px;
+		display: block;
 		font-family: $fonts;
 		font-size: 36px;
 		height: 120px;
 		list-style-type: none;
+		margin: 0 auto;
 		width: 300px;
 	}
 	.tweet {
-		height: 120px;
-		width: 120px;
+		border: 1px solid black;
+		border-radius: 40px;
+		color: black;
+		display: block;
+		font-family: $fonts;
+		font-size: 36px;
+		margin: 20px auto;
+		padding: 20px 10px;
+		text-decoration: none;
+		width: 300px;
 	}
 }

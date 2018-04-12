@@ -1,43 +1,51 @@
-main {
+body {
   background-color: #0984e3;
-  border: black solid 5px;
-  border-radius: 40px;
-  display: inline-block;
   font-family: "Cutive Mono", monospace;
-  height: auto;
-  max-width: auto;
-  min-height: 900px;
   text-align: center;
 }
 
-main h1 {
+body h1 {
   font-size: 48px;
-  padding-top: 130px;
+  height: 150px;
+  margin: 50px auto;
+  padding: 0 auto;
 }
 
-main h2 {
+body .box {
+  height: 400px;
+}
+
+body h2 {
   font-size: 36px;
-  padding-top: 130px;
 }
 
-main h3 {
+body h3 {
   font-size: 24px;
-  padding-top: 130px;
 }
 
-main button {
+body .trigger {
   background-color: grey;
   border-radius: 40px;
+  display: block;
   font-family: "Cutive Mono", monospace;
   font-size: 36px;
   height: 120px;
   list-style-type: none;
+  margin: 0 auto;
   width: 300px;
 }
 
-main .tweet {
-  height: 120px;
-  width: 120px;
+body .tweet {
+  border: 1px solid black;
+  border-radius: 40px;
+  color: black;
+  display: block;
+  font-family: "Cutive Mono", monospace;
+  font-size: 36px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  text-decoration: none;
+  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
