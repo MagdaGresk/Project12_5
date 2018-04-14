@@ -3,6 +3,7 @@ $blue: #0984e3;
 
 body {
 	background-color: $blue;
+	color: white;
 	font-family: $fonts;
 	text-align: center;
 	h1 {
@@ -12,7 +13,7 @@ body {
 		padding: 0 auto;
 	}
 	.box {
-		height: 400px;
+		margin-bottom: 200px;
 	}
 	h2 {
 		font-size: 36px;
@@ -21,26 +22,29 @@ body {
 		font-size: 24px;
 	}
 	.trigger {
-		background-color: grey;
-		border-radius: 40px;
-		display: block;
+		background-color: $blue;
+		border: 1px solid white;
+		color: white;
+		cursor: pointer;
+		display: flex;
 		font-family: $fonts;
 		font-size: 36px;
-		height: 120px;
-		list-style-type: none;
+		height: 60px;
+		justify-content: center;
 		margin: 0 auto;
-		width: 300px;
+		width: 600px;
 	}
 	.tweet {
-		border: 1px solid black;
-		border-radius: 40px;
-		color: black;
-		display: block;
+		align-items: center;
+		border: 1px solid white;
+		color: white;
+		display: flex;
 		font-family: $fonts;
 		font-size: 36px;
-		margin: 20px auto;
-		padding: 20px 10px;
+		height: 60px;
+		justify-content: center;
+		margin: 60px auto;
 		text-decoration: none;
-		width: 300px;
+		width: 600px;
 	}
 }
