@@ -1,6 +1,8 @@
 $fonts: 'Cutive Mono', monospace;
 $blue: #0984e3;
 
+* {box-sizing: border-box;}
+
 body {
 	background-color: $blue;
 	color: white;
